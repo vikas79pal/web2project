@@ -34,7 +34,8 @@
   "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon src/server.js"
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js"
   },
   "repository": {
     "type": "git",
@@ -46,5 +47,8 @@
     "url": "https://github.com/vikas79pal/webproject/issues"
   },
   "homepage": "https://github.com/vikas79pal/webproject#readme",
-  "description": ""
+  "description": "",
+  "engines": {
+    "node": ">=10.0.0" 
+  }
 }
